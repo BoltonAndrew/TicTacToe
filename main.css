@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading {
+    text-align: center;
+}
+
+#title {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#rules {
+    text-align: center;
+}
+
+#rulesText {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#rulesList {
+    font-family: 'Luckiest Guy', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    right: 20px;
+}
+
+#buttons {
+    align-items: center;
+}
+
+#clearBoard {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: transparent;
+    border: 0
+}
+
+#board {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(10px, 1fr));
+    grid-gap: 10px;
+}
+
+.square {
+    width: 20vw;
+    height: 20vw;
+    background-color: turquoise;
+}
+
+.sq {
+    width: 20vw;
+    height: 20vw;
+}
