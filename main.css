@@ -48,16 +48,76 @@ ul {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(3, minmax(10px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 1vw;
 }
 
 .square {
-    width: 20vw;
-    height: 20vw;
+    width: 18vw;
+    height: 18vw;
     background-color: turquoise;
+    max-width: 200px;
+    max-height: 200px;
 }
 
-.sq {
-    width: 20vw;
-    height: 20vw;
+#sq0 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+}
+
+#sq1 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+}
+
+#sq2 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+}
+
+#sq3 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+}
+
+#sq4 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+}
+
+#sq5 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+}
+
+#sq6 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+}
+
+#sq7 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+}
+
+#sq8 {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
 }
